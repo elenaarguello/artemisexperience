@@ -1,0 +1,341 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #305475;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav{
+    background-color: #3e2759;
+}
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+}
+.menu{
+    width: 750px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu li a{
+    color: #d6ccc2;
+}
+
+
+
+
+
+header{
+    background-image: url(img/Sea_Blue.jpg);
+    padding: 240px;
+}
+.principio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+h1{
+    font-family: 'Bebas Neue';
+    font-size: 128px;
+    color: white;
+    width: 1031px;
+    margin: 19px;
+}
+.presentacion{
+    font-family: 'Bebas Neue';
+    font-size: 44px;
+    color: white;
+    width: 602px;
+    margin: 5px 0px 0px 0px;
+}
+
+
+
+
+
+
+.mi{
+    padding: 60px 30px 90px 30px;
+}
+.mmi{
+    font-family: 'Bebas Neue';
+    color: white;
+    margin-left: 434px;
+    font-size: 40px;
+}
+.presentar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    width: 500px;
+    margin-left: 284px;
+}
+.perfiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 470px;
+    margin-left: 317px;
+    margin-top: 50px;
+}
+.present{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+    width: 200px;
+}
+
+
+
+
+
+
+
+.software{
+    background-color: #305475;
+    padding: 60px;
+    margin-top: 40px;
+}
+.programs{
+    width: 305px;
+    font-family: 'Bebas Neue';
+    color: white;
+    margin-left: 610px;
+    font-size: 40px;
+}
+.servicioss{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    width: 511px;
+    margin-left: 408px;
+}
+.programas{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin-left: 217px;
+}
+
+
+
+
+
+.portfolio1{
+    width: 115px;
+    font-family: 'Bebas Neue';
+    color: white;
+    margin-left: 511px;
+    font-size: 40px;
+    padding-top: 69px;
+}
+.inicio-portfolio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    width: 500px;
+    margin-left: 326px;
+}
+.composiciones{
+    width: 1190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 80px 18px 80px;
+    margin-left: 0px;
+}
+.ilustraciones{
+    width: 1190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 80px 18px 80px;
+    margin-left: 0px;
+}
+.reinterpretaciones{
+    width: 1190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 80px 18px 80px;
+    margin-left: 0px;
+}
+.tipografia{
+    width: 1190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 80px 18px 80px;
+    margin-left: 0px;
+}
+.fotomontajes{
+    width: 1190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 18px 30px;
+    margin-left: 0px;
+}
+h3{
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    color: white;
+    margin-left: 31px;
+    background-color: #386687;
+    padding: 10px;
+}
+
+
+
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}
+
+.consultaa{
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    color: white;
+    margin-left: 190px;
+    margin-top: 160px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.datos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 500px;
+    margin-left: 131px;
+}
+.enviar-consulta{
+    width: 1000px;
+}
+
+input {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    outline: none;
+    padding:10px  5px;
+    width: 100%;
+}
+input:focus{
+    background-color: rgb(228, 228, 228);
+    color: rgb(54, 0, 81);
+    
+}
+
+.consulta{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+textarea {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px  7px;
+    width: 85%;
+}
+textarea:focus{
+    background-color: rgb(228, 228, 228);
+    color: rgb(54, 0, 81);
+}
+
+.enviar {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 493px;
+    border-radius: 10px;
+    background-color: #3e2759;
+    width: 125px;
+    height: 43px;
+    line-height: 43px;
+    display: block;
+    color: #FFECD1;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    }
+.enviar:hover{
+    background-color: rgb(1, 79, 1)  ;
+}
+
+
+
+
+
+footer{
+    background-color: #3e2759;
+}
+.copy{
+    color: #FFECD1;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.redes{
+    width: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.redes li a{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
